@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right , rgb(106, 215, 240), rgb(239, 166, 239));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+#card>img{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#card>h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#card>p{
+    width: 70%;
+}
+
+#pricing{
+
+    background-color: #8BC6EC;
+    display: flex;
+    width: 85%;
+    height: 15%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#pricing>img{
+    height: 50px;
+    width:50px;
+    border-radius: 10px;
+    margin-right: -40px;
+}
+
+#pricing p{
+    font-size: 20px;
+}
+
+#pricing a{
+    font-size: 20px;
+}
+
+
+#payment{
+    background-color: navy;
+    color: white;
+    width: 85%;
+    height: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 8px 20px 2px black; */
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 75%;
+}
+
+.canclebox a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+    font-weight: bold;
+    font-size: large;
+}
